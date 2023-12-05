@@ -13,9 +13,9 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 # Theorem: 
 
-If A and B don't have the same number of nodes, they cannot be isomorphic, which is the same as saying the contrapositive
+If A and B don't have the same number of nodes, they cannot be isomorphic, which is the same as saying the contrapositive:
 
-If A and B are isomorphic, then A and be have the same number of nodes
+If A and B are isomorphic, then A and B have the same number of nodes
 
 # Proof: 
 
