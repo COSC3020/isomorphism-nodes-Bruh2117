@@ -13,14 +13,18 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 # Theorem: 
 
-If A and B don't have the same number of nodes, they cannot be isomorphic, which is the same as saying the contrapositive:
+Suppose graphs $A = (V_1, E_1)$ and $B = (V_2, E_2)$ don't have the same number of nodes and are isomorphic.
+Since they don't have the same number of nodes, $A$ will have less nodes than $B$ or vice versa. 
 
-If A and B are isomorphic, then A and B have the same number of nodes
+Since they're isomorphic there exists a bijective funtion $f: V_1 -> V_2$ such that $(u,v)
+\in E_1$ iff $(f(u),f(v)) \in E_2$.
 
-# Proof: 
+It follows that $f$ is then a onto and one-to-one function. This means that for it to be one-to-one, for each $s \in V_2$ 
+there is at most one $t \in V_1$ such that $f(t) = s$, and to be onto, for each $s \in V_2$ there is at least one 
+$t \in V_1$ such that $f(t) = s$. 
 
-Suppose A and B are isomorphic, meaning for $A = (V_1 , E_1)$ and $B = (V_2 , E_2) $, there exists a bijective function $f: V_1 -> V_2$ such that $(u, v) \in E_1$ iff $(f(u), f(v)) \in E_2$. 
+However, since one graph will have less nodes than the other, there will be some node in a graph that is either mapped to 
+more than one node or not mapped to any node in the other graph. 
 
-Also suppose A and B to have a finite number of elements. 
-
-For there to be a bijective function between A and B, by the definition of bijection, they must have the same cardinality, or rather the same number of nodes in this case, thus proving the theorem. 
+This means that $f$ cannot be both a one-to-one and onto function. But we stated that it is. This is a contradiction, 
+thus proving the theorem. 
