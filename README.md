@@ -11,7 +11,7 @@ $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
-# Theorem: 
+# Proof: 
 
 Suppose graphs $A = (V_1, E_1)$ and $B = (V_2, E_2)$ don't have the same number of nodes and are isomorphic.
 Since they don't have the same number of nodes, $A$ will have less nodes than $B$ or vice versa. 
